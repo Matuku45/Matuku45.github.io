@@ -2,7 +2,7 @@
   "name": "one",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://username.github.io/repo-name", // Replace with your GitHub username and repo name
+  "homepage": "https://Matuku45.github.io/PracticeAboutDeploy",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -11,15 +11,15 @@
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
-    "gh-pages": "^4.0.0" // Added gh-pages dependency
+    "gh-pages": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build", // Added for deployment
-    "deploy": "gh-pages -d build" // Added for deployment
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
